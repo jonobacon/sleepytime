@@ -1,4 +1,5 @@
 import QtQuick 2.0
+//import QtMultimediaKit 1.1
 
 Item {
     width: 320;
@@ -11,7 +12,7 @@ Item {
         x: 40;
         y: 40;
         radius: 10;
-        color: "#ad7fa8";
+        color: "#fce94f";
         antialiasing: true;
 
         Image {
@@ -261,7 +262,7 @@ Item {
         x: 180;
         y: 320;
         radius: 10;
-        color: "#fce94f";
+        color: "#ad7fa8";
         antialiasing: true;
 
         Image {
