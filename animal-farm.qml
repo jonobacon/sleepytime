@@ -4,13 +4,17 @@ import QtMultimedia 5.0
 Item {
     width: 320;
     height: 480;
+    
+    Grid {
+        x: 40;
+        y: 40;
+        columns: 2;
+        spacing: 40;
 
     Rectangle {
         id: cat;
         width: 100;
         height: 100;
-        x: 40;
-        y: 40;
         radius: 10;
         color: "#fce94f";
         antialiasing: true;
@@ -64,8 +68,6 @@ Item {
         id: dog;
         width: 100;
         height: 100;
-        x: 180;
-        y: 40;
         radius: 10;
         color: "#8ae234";
         antialiasing: true;
@@ -119,8 +121,6 @@ Item {
         id: sheep;
         width: 100;
         height: 100;
-        x: 40;
-        y: 180;
         radius: 10;
         color: "#729fcf";
         antialiasing: true;
@@ -174,8 +174,6 @@ Item {
         id: goat;
         width: 100;
         height: 100;
-        x: 180;
-        y: 180;
         radius: 10;
         color: "#e9b96e";
         antialiasing: true;
@@ -229,8 +227,6 @@ Item {
         id: elephant;
         width: 100;
         height: 100;
-        x: 40;
-        y: 320;
         radius: 10;
         color: "#fcaf3e";
         antialiasing: true;
@@ -284,8 +280,6 @@ Item {
         id: cow;
         width: 100;
         height: 100;
-        x: 180;
-        y: 320;
         radius: 10;
         color: "#ad7fa8";
         antialiasing: true;
@@ -333,5 +327,6 @@ Item {
             anchors.fill: parent;
             onPressed: { cow_rotate.start(); cow_sound.play(); }
         }
+    }
     }
 }
