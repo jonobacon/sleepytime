@@ -1,5 +1,5 @@
 import QtQuick 2.0
-//import QtMultimediaKit 1.1
+import QtMultimedia 5.0
 
 Item {
     width: 320;
@@ -22,6 +22,11 @@ Item {
             height: 80;
             source: "cat.png";
             fillMode: Image.PreserveAspectFit
+        }
+        
+        Audio {
+            id: cat_sound;
+            source: "cat.mp3";
         }
 
         SequentialAnimation {
@@ -51,7 +56,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: cat_rotate.start();
+            onClicked: { cat_rotate.start(); cat_sound.play(); }
         }
     }
 
@@ -72,6 +77,11 @@ Item {
             height: 80;
             source: "dog.png";
             fillMode: Image.PreserveAspectFit
+        }
+
+        Audio {
+            id: dog_sound;
+            source: "dog.mp3";
         }
 
         SequentialAnimation {
@@ -101,7 +111,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: dog_rotate.start();
+            onClicked: { dog_rotate.start(); dog_sound.play(); }
         }
     }
 
@@ -122,6 +132,11 @@ Item {
             height: 80;
             source: "sheep.png";
             fillMode: Image.PreserveAspectFit
+        }
+
+        Audio {
+            id: sheep_sound;
+            source: "sheep.mp3";
         }
 
         SequentialAnimation {
@@ -151,7 +166,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: sheep_rotate.start();
+            onClicked: { sheep_rotate.start(); sheep_sound.play(); }
         }
     }
 
@@ -172,6 +187,11 @@ Item {
             height: 80;
             source: "goat.png";
             fillMode: Image.PreserveAspectFit
+        }
+
+        Audio {
+            id: goat_sound;
+            source: "goat.mp3";
         }
 
         SequentialAnimation {
@@ -201,7 +221,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: goat_rotate.start();
+            onClicked: { goat_rotate.start(); goat_sound.play(); }
         }
     }
 
@@ -222,6 +242,11 @@ Item {
             height: 80;
             source: "elephant.png";
             fillMode: Image.PreserveAspectFit
+        }
+
+        Audio {
+            id: elephant_sound;
+            source: "elephant.mp3";
         }
 
         SequentialAnimation {
@@ -251,7 +276,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: elephant_rotate.start();
+            onClicked: { elephant_rotate.start(); elephant_sound.play(); }
         }
     }
 
@@ -272,6 +297,11 @@ Item {
             height: 80;
             source: "cow.png";
             fillMode: Image.PreserveAspectFit
+        }
+
+        Audio {
+            id: cow_sound;
+            source: "cow.mp3";
         }
 
         SequentialAnimation {
@@ -301,7 +331,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: cow_rotate.start();
+            onClicked: { cow_rotate.start(); cow_sound.play(); }
         }
     }
 }
