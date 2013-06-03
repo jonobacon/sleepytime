@@ -22,8 +22,8 @@ Item {
         Image {
             x: 10;
             y: 10;
-            width: 80;
-            height: 80;
+            width: parent.width * 0.8;
+            height: parent.height * 0.8;
             source: "cat.png";
             fillMode: Image.PreserveAspectFit
         }
@@ -75,8 +75,8 @@ Item {
         Image {
             x: 10;
             y: 10;
-            width: 80;
-            height: 80;
+            width: parent.width * 0.8;
+            height: parent.height * 0.8;
             source: "dog.png";
             fillMode: Image.PreserveAspectFit
         }
@@ -128,8 +128,8 @@ Item {
         Image {
             x: 10;
             y: 10;
-            width: 80;
-            height: 80;
+            width: parent.width * 0.8;
+            height: parent.height * 0.8;
             source: "sheep.png";
             fillMode: Image.PreserveAspectFit
         }
@@ -181,8 +181,8 @@ Item {
         Image {
             x: 10;
             y: 10;
-            width: 80;
-            height: 80;
+            width: parent.width * 0.8;
+            height: parent.height * 0.8;
             source: "goat.png";
             fillMode: Image.PreserveAspectFit
         }
@@ -234,8 +234,8 @@ Item {
         Image {
             x: 10;
             y: 10;
-            width: 80;
-            height: 80;
+            width: parent.width * 0.8;
+            height: parent.height * 0.8;
             source: "elephant.png";
             fillMode: Image.PreserveAspectFit
         }
@@ -287,8 +287,8 @@ Item {
         Image {
             x: 10;
             y: 10;
-            width: 80;
-            height: 80;
+            width: parent.width * 0.8;
+            height: parent.height * 0.8;
             source: "cow.png";
             fillMode: Image.PreserveAspectFit
         }
