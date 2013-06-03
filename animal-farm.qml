@@ -20,8 +20,8 @@ Item {
             antialiasing: true;
 
             Image {
-                x: 10;
-                y: 10;
+                anchors.horizontalCenter: parent.horizontalCenter;
+                anchors.verticalCenter: parent.verticalCenter;
                 width: parent.width * 0.8;
                 height: parent.height * 0.8;
                 source: "cat.png";
@@ -73,8 +73,8 @@ Item {
             antialiasing: true;
 
             Image {
-                x: 10;
-                y: 10;
+                anchors.horizontalCenter: parent.horizontalCenter;
+                anchors.verticalCenter: parent.verticalCenter;
                 width: parent.width * 0.8;
                 height: parent.height * 0.8;
                 source: "dog.png";
@@ -126,8 +126,8 @@ Item {
             antialiasing: true;
 
             Image {
-                x: 10;
-                y: 10;
+                anchors.horizontalCenter: parent.horizontalCenter;
+                anchors.verticalCenter: parent.verticalCenter;
                 width: parent.width * 0.8;
                 height: parent.height * 0.8;
                 source: "sheep.png";
@@ -179,8 +179,8 @@ Item {
             antialiasing: true;
 
             Image {
-                x: 10;
-                y: 10;
+                anchors.horizontalCenter: parent.horizontalCenter;
+                anchors.verticalCenter: parent.verticalCenter;
                 width: parent.width * 0.8;
                 height: parent.height * 0.8;
                 source: "goat.png";
@@ -232,8 +232,8 @@ Item {
             antialiasing: true;
 
             Image {
-                x: 10;
-                y: 10;
+                anchors.horizontalCenter: parent.horizontalCenter;
+                anchors.verticalCenter: parent.verticalCenter;
                 width: parent.width * 0.8;
                 height: parent.height * 0.8;
                 source: "elephant.png";
@@ -285,8 +285,8 @@ Item {
             antialiasing: true;
 
             Image {
-                x: 10;
-                y: 10;
+                anchors.horizontalCenter: parent.horizontalCenter;
+                anchors.verticalCenter: parent.verticalCenter;
                 width: parent.width * 0.8;
                 height: parent.height * 0.8;
                 source: "cow.png";
