@@ -3,9 +3,6 @@ import QtMultimedia 5.0
 
 Rectangle {
     id: box;
-    width: 100;
-    height: 100;
-    radius: 10;
     antialiasing: true;
 
     property alias color: box.color;
