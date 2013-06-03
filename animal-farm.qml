@@ -56,7 +56,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: { cat_rotate.start(); cat_sound.play(); }
+            onPressed: { cat_rotate.start(); cat_sound.play(); }
         }
     }
 
@@ -111,7 +111,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: { dog_rotate.start(); dog_sound.play(); }
+            onPressed: { dog_rotate.start(); dog_sound.play(); }
         }
     }
 
@@ -166,7 +166,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: { sheep_rotate.start(); sheep_sound.play(); }
+            onPressed: { sheep_rotate.start(); sheep_sound.play(); }
         }
     }
 
@@ -221,7 +221,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: { goat_rotate.start(); goat_sound.play(); }
+            onPressed: { goat_rotate.start(); goat_sound.play(); }
         }
     }
 
@@ -276,7 +276,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: { elephant_rotate.start(); elephant_sound.play(); }
+            onPressed: { elephant_rotate.start(); elephant_sound.play(); }
         }
     }
 
@@ -331,7 +331,7 @@ Item {
 
         MouseArea {
             anchors.fill: parent;
-            onClicked: { cow_rotate.start(); cow_sound.play(); }
+            onPressed: { cow_rotate.start(); cow_sound.play(); }
         }
     }
 }
