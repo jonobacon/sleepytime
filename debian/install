@@ -5,7 +5,7 @@ AnimalButton.qml usr/share/animal-farm
 cat.png usr/share/animal-farm
 cat.mp3 usr/share/animal-farm
 dog.png usr/share/animal-farm
-#dog.mp3 usr/share/animal-farm
+dog.mp3 usr/share/animal-farm
 sheep.png usr/share/animal-farm
 sheep.mp3 usr/share/animal-farm
 goat.png usr/share/animal-farm
