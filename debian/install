@@ -1,4 +1,5 @@
 animal-farm.desktop usr/share/applications
+animal-farm.png usr/share/icons/hicolor/64x64/apps
 AnimalFarm.qml usr/share/animal-farm
 AnimalButton.qml usr/share/animal-farm
 cat.png usr/share/animal-farm
