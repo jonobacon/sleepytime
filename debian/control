@@ -1,0 +1,14 @@
+Source: animal-farm
+Section: devel
+Priority: optional
+Maintainer: Robert Ancell <robert.ancell@gmail.com>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7.0.50~)
+Homepage: https://launchpad.net/animal-farm
+
+Package: animal-farm
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: Animal Farm
+ A simple game for babies to touch animals and hear them make noises
