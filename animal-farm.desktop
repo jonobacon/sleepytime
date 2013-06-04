@@ -3,6 +3,6 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Terminal=false
-Exec=qmlscene /usr/share/animal-farm/AnimalFarm.qml
+Exec=qmlscene --desktop_file_hint=/usr/share/applications/animal-farm.desktop /usr/share/animal-farm/AnimalFarm.qml
 Name=Animal Farm
 X-Ubuntu-Touch=true
