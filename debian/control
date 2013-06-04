@@ -9,6 +9,9 @@ Homepage: https://launchpad.net/animal-farm
 Package: animal-farm
 Architecture: all
 Depends: ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
+         qmlscene,
+         libqt5quick5,
+         libqt5multimedia5
 Description: Animal Farm
  A simple game for babies to touch animals and hear them make noises
