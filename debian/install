@@ -1,0 +1,15 @@
+animal-farm.desktop usr/share/applications
+AnimalFarm.qml usr/share/animal-farm
+AnimalButton.qml usr/share/animal-farm
+cat.png usr/share/animal-farm
+cat.mp3 usr/share/animal-farm
+dog.png usr/share/animal-farm
+#dog.mp3 usr/share/animal-farm
+sheep.png usr/share/animal-farm
+sheep.mp3 usr/share/animal-farm
+goat.png usr/share/animal-farm
+goat.mp3 usr/share/animal-farm
+elephant.png usr/share/animal-farm
+elephant.mp3 usr/share/animal-farm
+cow.png usr/share/animal-farm
+cow.mp3 usr/share/animal-farm
