@@ -6,8 +6,8 @@ Item {
     width: 320;
     height: 480;
 
-    property int n_columns: 2;
-    property int n_rows: 3;
+    property int n_columns: height > width ? 2 : 3;
+    property int n_rows: height > width ? 3 : 2;
     property int button_size: Math.min (width / n_columns, height / n_rows) * 0.9;
     property int button_radius: 10;
     property int button_xspacing: (width - button_size * n_columns) / (n_columns + 1);
