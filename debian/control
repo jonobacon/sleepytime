@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 7.0.50~)
 Homepage: https://launchpad.net/animal-farm
 
 Package: animal-farm
-Architecture: any
+Architecture: all
 Depends: ${misc:Depends},
          ${shlibs:Depends}
 Description: Animal Farm
