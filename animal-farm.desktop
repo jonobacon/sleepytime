@@ -4,6 +4,6 @@ Version=1.0
 Type=Application
 Icon=animal-farm
 Terminal=false
-Exec=qmlscene --desktop_file_hint=/usr/share/applications/animal-farm.desktop /usr/share/animal-farm/AnimalFarm.qml
+Exec=/usr/bin/qmlscene $@ /usr/share/animal-farm/animal-farm.qml
 Name=Animal Farm
 X-Ubuntu-Touch=true

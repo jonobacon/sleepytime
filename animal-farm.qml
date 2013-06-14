@@ -9,12 +9,17 @@
  */
 
 import QtQuick 2.0
+import Ubuntu.Components 0.1
 
-Item {
+MainView {
+    applicationName: "animal-farm"
+    automaticOrientation: true
+    width: units.gu(100)
+    height: units.gu(75)
+
     id: app;
-    width: 320;
-    height: 480;
 
+    onHeightChanged: print(height)
     property int n_columns: height > width ? 2 : 3;
     property int n_rows: height > width ? 3 : 2;
     property int button_size: Math.min (width / n_columns, height / n_rows) * 0.9;
@@ -22,14 +27,16 @@ Item {
     property int button_xspacing: (width - button_size * n_columns) / (n_columns + 1);
     property int button_yspacing: (height - button_size * n_rows) / (n_rows + 1);
 
+    onRotationChanged: print(rotation)
+
     Grid {
         x: button_xspacing;
         y: button_yspacing;
         columns: n_columns;
         rows: n_rows;
 
-        columnSpacing: app.button_xspacing;
-        rowSpacing: app.button_yspacing;
+       columnSpacing: app.button_xspacing;
+       rowSpacing: app.button_yspacing;
 
         AnimalButton {
             width: app.button_size;
