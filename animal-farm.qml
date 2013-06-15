@@ -1,3 +1,13 @@
+/*
+* Copyright (C) 2013 Robert Ancell <robert.ancell@gmail.com>
+*
+* This program is free software: you can redistribute it and/or modify it under
+* the terms of the GNU General Public License as published by the Free Software
+* Foundation, either version 3 of the License, or (at your option) any later
+* version. See http://www.gnu.org/copyleft/gpl.html the full text of the
+* license.
+*/
+
 import QtQuick 2.0
 import Ubuntu.Components 0.1
 
@@ -13,15 +23,12 @@ MainView {
         anchors.fill: parent
 
         id: wrapper
-        onHeightChanged: print(height)
         property int n_columns: height > width ? 2 : 3;
         property int n_rows: height > width ? 3 : 2;
         property int button_size: Math.min (width / n_columns, height / n_rows) * 0.9;
         property int button_radius: 10;
         property int button_xspacing: (width - button_size * n_columns) / (n_columns + 1);
         property int button_yspacing: (height - button_size * n_rows) / (n_rows + 1);
-
-        onRotationChanged: print(rotation)
 
         Grid {
             x: wrapper.button_xspacing;
