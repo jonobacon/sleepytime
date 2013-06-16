@@ -12,6 +12,7 @@ Depends: ${misc:Depends},
          ${shlibs:Depends},
          qmlscene,
          libqt5quick5,
-         libqt5multimedia5
+         libqt5multimedia5,
+         qtdeclarative5-ubuntu-ui-toolkit-plugin|qt-components-ubuntu
 Description: Animal Farm
  A simple game for babies to touch animals and hear them make noises

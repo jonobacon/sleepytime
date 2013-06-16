@@ -10,11 +10,12 @@
 
 import QtQuick 2.0
 import QtMultimedia 5.0
+import Ubuntu.Components 0.1
 
-Rectangle {
+UbuntuShape {
     id: box;
     antialiasing: true;
-
+    radius: "medium"
     property alias color: box.color;
     property alias imageSource: image.source;
     property alias soundSource: sound.source;

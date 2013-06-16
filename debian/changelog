@@ -1,3 +1,9 @@
+animal-farm (0.2) saucy; urgency=low
+
+  * SDK compatibity changes and rotation support
+
+ -- Zoltán Balogh <zoltan@bakter.hu>  Fri, 14 Jun 2013 17:01:18 +0300
+
 animal-farm (0.1) saucy; urgency=low
 
   * Initial Release
