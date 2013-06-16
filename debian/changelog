@@ -1,5 +1,7 @@
 animal-farm (0.3) saucy; urgency=low
 
+  * debian/control:
+    - Use standards version 3.9.4
   * debian/install:
     - Fix install for new .qml filename
 
