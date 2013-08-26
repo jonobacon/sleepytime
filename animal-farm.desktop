@@ -1,9 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Version=1.0
-Type=Application
-Icon=animal-farm
-Terminal=false
-Exec=/usr/bin/qmlscene $@ /usr/share/animal-farm/animal-farm.qml
-Name=Animal Farm
-X-Ubuntu-Touch=true
