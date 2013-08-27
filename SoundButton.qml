@@ -6,7 +6,9 @@ UbuntuShape {
     id: box;
     antialiasing: true;
     radius: "medium"
+
     property alias color: box.color;
+    property alias description: label.text;
     property alias imageSource: image.source;
     property alias soundSource: sound.source;
     property var state: false;
@@ -18,13 +20,23 @@ UbuntuShape {
         width: parent.width * 0.8;
         height: parent.height * 0.8;
         fillMode: Image.PreserveAspectFit
+
     }
+
+    Label {
+            id: label;
+            anchors.horizontalCenter: image.horizontalCenter
+            anchors.top: image.bottom
+            text: "Hello, world!"
+            fontSize: "medium"
+    }
+
 
     Audio {
         id: sound;
 
         onStopped: {
-            box.color = UbuntuColors.orange
+            box.color = "#32222C"
             if (box.state == true) {
                 box.color = UbuntuColors.warmGrey
                 sound.play()
@@ -70,7 +82,7 @@ UbuntuShape {
             else if (box.state == true) {
                 box.state = false;
                 sound.stop()
-                box.color = UbuntuColors.orange
+                box.color = "#32222C"
             }
 
             animation.start();

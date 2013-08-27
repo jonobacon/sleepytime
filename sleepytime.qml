@@ -50,7 +50,8 @@ MainView {
                 width: wrapper.button_size;
                 height: wrapper.button_size;
                 radius: wrapper.button_radius;
-                color: UbuntuColors.orange
+                color: "#32222C"
+                description: "White Noise"
                 imageSource: "media/whitenoise.png";
                 soundSource: "media/whitenoise.mp3";
             }
@@ -58,7 +59,8 @@ MainView {
                 width: wrapper.button_size;
                 height: wrapper.button_size;
                 radius: wrapper.button_radius;
-                color: UbuntuColors.orange
+                color: "#32222C"
+                description: "Wind Chimes"
                 imageSource: "media/chimes.png";
                 soundSource: "media/chimes.mp3";
             }
@@ -66,7 +68,8 @@ MainView {
                 width: wrapper.button_size;
                 height: wrapper.button_size;
                 radius: wrapper.button_radius;
-                color: UbuntuColors.orange
+                color: "#32222C"
+                description: "Big Waves"
                 imageSource: "media/whitenoise.png";
                 soundSource: "media/bigwaves.mp3";
             }
@@ -74,7 +77,8 @@ MainView {
                 width: wrapper.button_size;
                 height: wrapper.button_size;
                 radius: wrapper.button_radius;
-                color: UbuntuColors.orange
+                color: "#32222C"
+                description: "Calm Waves"
                 imageSource: "media/whitenoise.png";
                 soundSource: "media/calmwaves.mp3";
             }
@@ -82,7 +86,8 @@ MainView {
                 width: wrapper.button_size;
                 height: wrapper.button_size;
                 radius: wrapper.button_radius;
-                color: UbuntuColors.orange
+                color: "#32222C"
+                description: "City Ambiance"
                 imageSource: "media/whitenoise.png";
                 soundSource: "media/city.mp3";
             }
@@ -90,7 +95,8 @@ MainView {
                 width: wrapper.button_size;
                 height: wrapper.button_size;
                 radius: wrapper.button_radius;
-                color: UbuntuColors.orange
+                color: "#32222C"
+                description: "Country Ambiance"
                 imageSource: "media/whitenoise.png";
                 soundSource: "media/countryside.mp3";
             }
