@@ -70,7 +70,7 @@ MainView {
                 radius: wrapper.button_radius;
                 color: "#32222C"
                 description: "Big Waves"
-                imageSource: "media/whitenoise.png";
+                imageSource: "media/bigwaves.png";
                 soundSource: "media/bigwaves.mp3";
             }
             SoundButton {
@@ -79,7 +79,7 @@ MainView {
                 radius: wrapper.button_radius;
                 color: "#32222C"
                 description: "Calm Waves"
-                imageSource: "media/whitenoise.png";
+                imageSource: "media/calmwaves.png";
                 soundSource: "media/calmwaves.mp3";
             }
             SoundButton {
@@ -88,7 +88,7 @@ MainView {
                 radius: wrapper.button_radius;
                 color: "#32222C"
                 description: "City Ambiance"
-                imageSource: "media/whitenoise.png";
+                imageSource: "media/city.png";
                 soundSource: "media/city.mp3";
             }
             SoundButton {
@@ -97,7 +97,7 @@ MainView {
                 radius: wrapper.button_radius;
                 color: "#32222C"
                 description: "Country Ambiance"
-                imageSource: "media/whitenoise.png";
+                imageSource: "media/countryside.png";
                 soundSource: "media/countryside.mp3";
             }
         }
